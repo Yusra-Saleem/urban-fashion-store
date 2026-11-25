@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Urban Fashion Boutique
+
+> Modern urban lifestyle fashion, accessories, and boutique web platform.
+
+## Overview
+
+A chic fashion e-commerce storefront presenting curated boutique apparel, accessories, and modern wardrobe essentials with clean filtering and checkout UI.
+
+## Key Features
+
+- Curated collection sections: Trending, New Arrivals, and Essentials
+- Interactive product modal with specifications, materials, and sizing
+- Persistent cart drawer state with instant order subtotal calculation
+- Minimalist responsive aesthetic crafted with Tailwind CSS
+
+## Architecture and Technology Stack
+
+- **Core Technologies:** Next.js, React, TypeScript, Tailwind CSS, Shadcn UI
+- **Author:** Yusra Saleem
+- **Portfolio:** [yusrasaleem.dev](https://yusrasaleem.dev)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Ensure you have the required runtime environment installed for this repository:
+- Node.js (v18+) for JavaScript/TypeScript projects
+- Python (3.10+) for Python services and agent workflows
+
+### Installation
+
+Clone the repository to your local machine:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Yusra-Saleem/urban-fashion-store.git
+cd urban-fashion-store
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# For Node / Next.js projects
+npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# For Python projects
+pip install -r requirements.txt
+```
 
-## Learn More
+### Running Locally
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Start local development server
+npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Or for Python entry points
+python main.py
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for complete details.
